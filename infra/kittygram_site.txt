@@ -1,0 +1,5 @@
+IP: 158.160.14.198;
+name_taski: https://arhside.hopto.org;
+name_kittygram: https://arhsidegramm.ddns.net;
+login: arhside3;
+password: 123; 
