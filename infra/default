@@ -1,5 +1,6 @@
 server {
     server_name arhside.hopto.org;
+    server_tokens off;
 
     location /api/ {
         proxy_pass http://127.0.0.1:8000/;
@@ -33,6 +34,7 @@ server {
 
 server {
     server_name arhsidegramm.ddns.net;
+    server_tokens off;
 
     location /api/ {
         proxy_pass http://127.0.0.1:8080/;
